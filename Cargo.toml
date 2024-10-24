@@ -17,11 +17,6 @@ doctest = false
 
 [features]
 default = ["cpi"]
-no-entrypoint = []
-cpi = ["no-entrypoint"]
-secrets = ["rand", "rsa", "reqwest"]
-ipfs = ["switchboard-common/ipfs"]
-all = ["secrets", "ipfs"]
 
 [dependencies]
 anchor-spl = "0.30.1"
@@ -35,7 +30,7 @@ kv-log-macro = "1.0"
 
 
 [target.'cfg(target_os = "solana")'.dependencies]
-switchboard-common = { version = "0.11.0" }
+# switchboard-common = { version = "0.11.0" }
 anchor-lang = { version = "0.30.1" }
 
 # [target.'cfg(not(target_os = "solana"))'.dependencies]
