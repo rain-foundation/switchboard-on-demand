@@ -17,6 +17,8 @@ doctest = false
 
 [features]
 default = ["cpi"]
+no-entrypoint = []
+cpi = ["no-entrypoint"]
 
 [dependencies]
 anchor-spl = "0.30.1"
