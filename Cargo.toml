@@ -21,8 +21,8 @@ no-entrypoint = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-spl = "0.30.1"
 solana-program = "*"
 rust_decimal = "^1"
+anchor-lang = { git = "https://github.com/coral-xyz/anchor.git" }
+anchor-spl = { git = "https://github.com/coral-xyz/anchor.git" }
 bytemuck = "^1"
-anchor-lang = { version = "0.30.1" }
