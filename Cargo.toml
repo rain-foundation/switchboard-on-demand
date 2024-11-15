@@ -23,6 +23,6 @@ cpi = ["no-entrypoint"]
 [dependencies]
 solana-program = "*"
 rust_decimal = "^1"
-anchor-lang = { git = "https://github.com/coral-xyz/anchor.git" }
-anchor-spl = { git = "https://github.com/coral-xyz/anchor.git" }
+anchor-lang = { git = "https://github.com/coral-xyz/anchor.git", branch = "master" }
+anchor-spl = { git = "https://github.com/coral-xyz/anchor.git", branch = "master" }
 bytemuck = "^1"
