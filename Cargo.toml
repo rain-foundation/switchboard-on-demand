@@ -12,7 +12,7 @@ license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "switchboard_solana"
+name = "switchboard_on_demand"
 doctest = false
 
 [features]
