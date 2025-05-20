@@ -21,8 +21,8 @@ no-entrypoint = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-spl = "0.31.0"
+anchor-spl = "0.31.1"
 solana-program = "*"
 rust_decimal = "^1"
 bytemuck = "^1"
-anchor-lang = { version = "0.31.0" }
+anchor-lang = { version = "0.31.1" }
